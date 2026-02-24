@@ -1,0 +1,55 @@
+export type Locale = {
+  code: string;
+  name: string;
+  flag: string;
+};
+
+export const locales: Locale[] = [
+  { code: "pt", name: "Portugu\u00eas", flag: "\ud83c\uddf5\ud83c\uddf9" },
+  { code: "en", name: "English", flag: "\ud83c\uddec\ud83c\udde7" },
+  { code: "de", name: "Deutsch", flag: "\ud83c\udde9\ud83c\uddea" },
+  { code: "fr", name: "Fran\u00e7ais", flag: "\ud83c\uddeb\ud83c\uddf7" },
+  { code: "it", name: "Italiano", flag: "\ud83c\uddee\ud83c\uddf9" },
+  { code: "es", name: "Espa\u00f1ol", flag: "\ud83c\uddea\ud83c\uddf8" },
+  { code: "nl", name: "Nederlands", flag: "\ud83c\uddf3\ud83c\uddf1" },
+  { code: "ja", name: "\u65e5\u672c\u8a9e", flag: "\ud83c\uddef\ud83c\uddf5" },
+  { code: "zh", name: "\u4e2d\u6587", flag: "\ud83c\udde8\ud83c\uddf3" },
+  { code: "ar", name: "\u0627\u0644\u0639\u0631\u0628\u064a\u0629", flag: "\ud83c\uddf8\ud83c\udde6" },
+  { code: "ko", name: "\ud55c\uad6d\uc5b4", flag: "\ud83c\uddf0\ud83c\uddf7" },
+  { code: "ru", name: "\u0420\u0443\u0441\u0441\u043a\u0438\u0439", flag: "\ud83c\uddf7\ud83c\uddfa" },
+  { code: "pl", name: "Polski", flag: "\ud83c\uddf5\ud83c\uddf1" },
+  { code: "cs", name: "\u010ce\u0161tina", flag: "\ud83c\udde8\ud83c\uddff" },
+  { code: "sk", name: "Sloven\u010dina", flag: "\ud83c\uddf8\ud83c\uddf0" },
+  { code: "hu", name: "Magyar", flag: "\ud83c\udded\ud83c\uddfa" },
+  { code: "ro", name: "Rom\u00e2n\u0103", flag: "\ud83c\uddf7\ud83c\uddf4" },
+  { code: "bg", name: "\u0411\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438", flag: "\ud83c\udde7\ud83c\uddec" },
+  { code: "hr", name: "Hrvatski", flag: "\ud83c\udded\ud83c\uddf7" },
+  { code: "sr", name: "\u0421\u0440\u043f\u0441\u043a\u0438", flag: "\ud83c\uddf7\ud83c\uddf8" },
+  { code: "sl", name: "Sloven\u0161\u010dina", flag: "\ud83c\uddf8\ud83c\uddee" },
+  { code: "uk", name: "\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430", flag: "\ud83c\uddfa\ud83c\udde6" },
+  { code: "el", name: "\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac", flag: "\ud83c\uddec\ud83c\uddf7" },
+  { code: "tr", name: "T\u00fcrk\u00e7e", flag: "\ud83c\uddf9\ud83c\uddf7" },
+  { code: "he", name: "\u05e2\u05d1\u05e8\u05d9\u05ea", flag: "\ud83c\uddee\ud83c\uddf1" },
+  { code: "hi", name: "\u0939\u093f\u0928\u094d\u0926\u0940", flag: "\ud83c\uddee\ud83c\uddf3" },
+  { code: "bn", name: "\u09ac\u09be\u0982\u09b2\u09be", flag: "\ud83c\udde7\ud83c\udde9" },
+  { code: "th", name: "\u0e44\u0e17\u0e22", flag: "\ud83c\uddf9\ud83c\udded" },
+  { code: "vi", name: "Ti\u1ebfng Vi\u1ec7t", flag: "\ud83c\uddfb\ud83c\uddf3" },
+  { code: "id", name: "Bahasa Indonesia", flag: "\ud83c\uddee\ud83c\udde9" },
+  { code: "ms", name: "Bahasa Melayu", flag: "\ud83c\uddf2\ud83c\uddfe" },
+  { code: "fil", name: "Filipino", flag: "\ud83c\uddf5\ud83c\udded" },
+  { code: "sv", name: "Svenska", flag: "\ud83c\uddf8\ud83c\uddea" },
+  { code: "da", name: "Dansk", flag: "\ud83c\udde9\ud83c\uddf0" },
+  { code: "no", name: "Norsk", flag: "\ud83c\uddf3\ud83c\uddf4" },
+  { code: "fi", name: "Suomi", flag: "\ud83c\uddeb\ud83c\uddee" },
+  { code: "et", name: "Eesti", flag: "\ud83c\uddea\ud83c\uddea" },
+  { code: "lv", name: "Latvie\u0161u", flag: "\ud83c\uddf1\ud83c\uddfb" },
+  { code: "lt", name: "Lietuvi\u0173", flag: "\ud83c\uddf1\ud83c\uddf9" },
+  { code: "ka", name: "\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8", flag: "\ud83c\uddec\ud83c\uddea" },
+  { code: "az", name: "Az\u0259rbaycanca", flag: "\ud83c\udde6\ud83c\uddff" },
+  { code: "kk", name: "\u049a\u0430\u0437\u0430\u049b\u0448\u0430", flag: "\ud83c\uddf0\ud83c\uddff" },
+  { code: "uz", name: "O\u02bbzbekcha", flag: "\ud83c\uddfa\ud83c\uddff" },
+  { code: "sw", name: "Kiswahili", flag: "\ud83c\uddf0\ud83c\uddea" },
+  { code: "am", name: "\u12a0\u121b\u122d\u129b", flag: "\ud83c\uddea\ud83c\uddf9" },
+];
+
+export const defaultLocale = "pt";
